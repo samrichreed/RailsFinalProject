@@ -3,5 +3,6 @@ Rails.application.routes.draw do
 	root 'users#new'
 	get '/users/new', to: 'users#new'
     post '/users', to: 'users#create'
-
+	resources :users
+	
 end
