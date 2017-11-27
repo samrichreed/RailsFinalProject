@@ -1,7 +1,6 @@
 class HomeController < ApplicationController
 	
-	def display
-		redirect_to root
+	def index
 	end
 
 end
