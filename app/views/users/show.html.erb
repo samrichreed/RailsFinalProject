@@ -1,10 +1,8 @@
 <% provide(:title, @user.name) %>
-<div class="row">
-  <aside class="col-md-4">
-    <section class="user_info">
-      <h1>
-        <%= @user.name %> <%= @user.email %><br>
-      </h1>
-    </section>
-  </aside>
-</div>
+<h3>User</h3>
+<p>Name: <%= @user.name if @user.name %></p>
+<p>Email: <%= @user.email if @user.email %></p>
+
+<!-- <% @user.ratings.each do |rating| %> -->
+<!-- <li><%= rating.song_name %> <%= rating.artist_name %> <%= rating.rating_num %>  -->
+<% end %>
