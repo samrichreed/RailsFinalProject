@@ -4,7 +4,7 @@
 * Team​ ​Members:​ Julia Maimone, Tanji Saraf-Chávez, Sam Reed
 * Demo​ ​Link:​ songrating.me
 
-* Idea:​ ​An application users can rate and comment about songs.
+* Idea:​ ​An application where users can rate and comment about songs. Users can also see what other users have rated and said about songs
 
 # Models​ ​and​ ​Description:
 
